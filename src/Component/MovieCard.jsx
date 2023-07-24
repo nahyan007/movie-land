@@ -1,8 +1,11 @@
 import React from "react";
 
-const MovieCard = ({ movie }) => {
+const MovieCard = ({movie}) => {
   return (
     <div className="movie" >
+    {/* {
+      console.log(movie)
+    } */}
       <div>
         <p>{movie.Year}</p>
       </div>

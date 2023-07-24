@@ -192,6 +192,32 @@ h1 {
   opacity: 1;
 }
 
+
+.pagination{
+  padding: 10px;
+  /* border: 2px solid #f9d3b4; */
+  display: flex;
+  align-items: center;
+}
+
+.pagination span{
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.pagination__icon{
+  cursor: pointer;
+}
+
+.pagination__selected{
+  color: #f9d3b4; ;
+}
+
+.pagination__disable{
+  opacity: 0;
+}
+
+
 @media screen and (max-width: 600px) {
   .app {
     padding: 4rem 2rem;
